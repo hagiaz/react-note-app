@@ -30,6 +30,7 @@ class NoteSearch extends React.Component {
     render() {
         return (
             <form className="note-input" onSubmit={this.onSearchEventHandler}>
+                <h3>Cari Judul</h3>
                 <input type="text" placeholder="Title" value={this.state.title} onChange={this.onTitleChangeEventHandler} />
                 <button type="submit">Cari</button>
             </form>

@@ -9,6 +9,21 @@ body {
   background-color: #f5f5f5; /* Softer background color */
   color: #333;
 }
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  padding: 16px;
+  background-color: #333;
+}
+
+.navbar-links {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
  
 .notes-app {
   max-width: 800px;
@@ -19,6 +34,7 @@ body {
 .notes-app h1 {
   font-weight: bold;
   font-size: 48px; /* Slightly smaller for better readability */
+  margin-top: 24px;
   margin-bottom: 32px;
   text-align: center;
 }
@@ -133,11 +149,11 @@ body {
   color: white;
   border: none;
   border-radius: 4px;
-  font-family: 'Inter', sans-serif;
   font-size: 16px;
   cursor: pointer;
   transition: background-color 0.3s ease;
   margin-top: 12px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 .note-input button:hover {
@@ -167,11 +183,10 @@ body {
   padding: 12px;
   border: 1px solid #ddd;
   border-radius: 4px;
-  font-family: 'Inter', sans-serif;
 }
 
 .note-search input:focus {
   border-color: #3498db;
   outline: none;
-  box-shadow: 0 0 4px rgba(52, 152, 219, 0.4);
+  box-shadow: 0 0 4px rgba(23, 26, 29, 0.4);
 }
