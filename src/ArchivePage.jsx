@@ -1,9 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
-import NoteList from "./NoteList";
 import { getData } from "./data";
-import NoteInput from "./NoteInput";
-import NoteSearch from "./NoteSearch";
 import ArchivedNote from "./ArchivedNote";
 
 class ArchivePage extends React.Component{

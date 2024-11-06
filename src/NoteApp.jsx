@@ -3,8 +3,6 @@ import React from "react";
 import NoteList from "./NoteList";
 import { getData } from "./data";
 import NoteInput from "./NoteInput";
-import NoteSearch from "./NoteSearch";
-import ArchivedNote from "./ArchivedNote";
 
 class NoteApp extends React.Component{
     constructor(props) {
@@ -57,8 +55,6 @@ class NoteApp extends React.Component{
                 <h1>NotesApp</h1>
                 <h2>Add Note</h2>
                 <NoteInput addNote={this.onAddNoteHandler} />
-                <h2>Search Note</h2>
-                <NoteSearch searchNote={this.onSearchNoteHandler} />
                 <h2>Note List</h2>
                 <NoteList notes={this.state.notes} onDelete={this.onDeleteHandler} onStatusChange={this.onStatusChangeHandler}/>
             </div>
